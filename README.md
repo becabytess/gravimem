@@ -26,6 +26,21 @@ Gravimem is effectively running **Stochastic Gradient Descent (SGD)** on the hum
     *   **Attraction**: Correct answers are gradient steps toward the Truth.
     *   **Repulsion**: Confusion creates specific gradients pushing concepts apart.
     *   **Backpropagation**: Corrections ripple through the graph, adjusting related concepts automatically.
+    *   **Entropy**: Time doesn't just "reset a timer"; it adds *Thermal Noise* (jitter) and evaporates *Mass* (certainty).
+
+---
+
+## 🧠 Neuroscience Basis: Interference vs. Decay
+
+Cognitive science posits two main causes of forgetting:
+
+1.  **Decay Theory**: Memory fades simply due to the passage of time. (Modeled by Anki/SM-2).
+2.  **Interference Theory**: Memory is corrupted by competing, similar information. (Ignored by traditional apps).
+
+**GRAVIMEM is the first algorithm to mathematically model Interference Theory.**
+
+*   **Handling Decay**: We use **Thermodynamic Entropy**. Over time, your knowledge concept loses Mass (Certainty) and jitters (Thermal Noise), naturally drifting away from truth.
+*   **Handling Interference**: We use **Electrostatic Repulsion**. If you confuse "Stalactite" with "Stalagmite", Gravimem doesn't just schedule a review; it applies a repulsive force vector that physically pushes these two concepts apart in your latent space, reducing future interference.
 
 ---
 
