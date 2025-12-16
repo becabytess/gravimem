@@ -40,16 +40,16 @@ Cognitive science posits two main causes of forgetting:
 **GRAVIMEM is the first algorithm to mathematically model Interference Theory.**
 
 *   **Handling Decay**: We use **Thermodynamic Entropy**. Over time, your knowledge concept loses Mass (Certainty) and jitters (Thermal Noise), naturally drifting away from truth.
-*   **Handling Interference**: We use **Electrostatic Repulsion**. If you confuse "Stalactite" with "Stalagmite", Gravimem doesn't just schedule a review; it applies a repulsive force vector that physically pushes these two concepts apart in your latent space, reducing future interference.
+*   **Handling Interference**: We use **Electrostatic Repulsion**. If you confuse "Stalactite" with "Stalagmite", Gravimem doesn't just schedule a review; it applies a repulsive force vector that physically pushes the **vector embeddings** of these two concepts apart in your latent space, reducing future interference.
 
 ---
 
 ## 🧠 Core Concepts
 
 ### 1. Elastic Manifold (Latent Space Optimization)
-Gravimem projects your knowledge onto a high-dimensional manifold. When you learn, you aren't just flipping a bit; you are **optimizing a latent space**. 
+Gravimem projects your knowledge onto a high-dimensional manifold of **vector embeddings**. When you learn, you aren't just flipping a bit; you are **optimizing the vector positions** in this latent space. 
 
-If you learn that *Lion* is a *Cat*, the algorithm applies a gradient update that pulls the entire *Feline* cluster into better alignment. **You learn faster because learning one thing physically moves related things closer to mastery.**
+If you learn that *Lion* is a *Cat*, the algorithm applies a gradient update that pulls the entire *Feline* cluster **embeddings** into better alignment. **You learn faster because learning one thing physically moves related vector embeddings closer to mastery.**
 
 ### 2. Mass & Inertia (Adaptive Learning Rate)
 In traditional algorithms, a "Review" is just a counter. In Gravimem, it is **Mass Accretion**.
