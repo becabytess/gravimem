@@ -96,5 +96,6 @@ print(f"Ripples: {len(ripples)} related concepts improved!")
 
 ## 📜 License
 
-MIT. Go build the future of learning.
+MIT. Core engine written , more coming soon
+
 # gravimem
